@@ -1,0 +1,24 @@
+[2022-09-05 02:49:31,430::gen::INFO] [ARGS::ckpt] './logs/VAE_2022_08_03__16_10_51'
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::dataset] './data/qm9/data_15.pkl'
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::out] './output'
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::prefix] None
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::tag] ''
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::em_steps] 0
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::device] 'cuda'
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::num_samples] 1
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::batch_size] 1000
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::emb_step_size] 3.0
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::emb_num_steps] 1000
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::emb_optim] 'Adam'
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::rmoutlier] False
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::num_samples_real] None
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::outlier_std] 2.5
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::mmff] False
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::deterministic_sampling] False
+[2022-09-05 02:49:31,431::gen::INFO] [ARGS::eval_only] False
+[2022-09-05 02:49:31,431::gen::INFO] Loading VAE...
+[2022-09-05 02:49:33,579::gen::INFO] Loading test-set: ./data/qm9/data_15.pkl
+[2022-09-05 02:49:37,507::gen::INFO] Saving to: ./output/None_VAE_1662338971/mols.pkl
+[2022-09-05 02:49:37,814::gen::INFO] Threshold 0.500000: COV(Mean) 0.000000, COV(Median) 0.000000
+[2022-09-05 02:49:37,815::gen::INFO] Threshold 1.250000: COV(Mean) 0.666667, COV(Median) 1.000000
+[2022-09-05 02:49:37,815::gen::INFO] MAT(Mean) 1.100160, MAT(Median) 0.929980
